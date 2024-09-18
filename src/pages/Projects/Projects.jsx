@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import PageHeader from '../../components/PageHeader/PageHeader'
-import './projects.css'
+import './projects.scss'
 import Cards from '../../components/Cards/Cards'
 
 const Projects = () => {
