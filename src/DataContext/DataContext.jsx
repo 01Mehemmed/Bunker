@@ -16,6 +16,24 @@ export const DataProvider = ({ children }) => {
     const [contactdata, setContactData] = useState([])
     const [footerdata, setFooterData] = useState([])
 
+    // Services states
+    const [servicepagedata, setServicePageData] = useState([])
+    const [servicedetaildata, setServiceDetailData] = useState({});
+
+    // Projects pages states
+    const [projectsdata, setProjectsData] = useState([])
+    const [prodetail, setProDetail] = useState({});
+
+    // Blogs pages states
+    const [blogdata, setBlogData] = useState([])
+    const [detaildata, setDetailData] = useState({});
+
+    // Contact pages state
+    const [contactpagedata, setContactpageData] = useState([])
+
+    // About Us state
+    const [aboutpagedata, setAboutPageData] = useState([])
+
     // Loading and Error states 
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
@@ -201,8 +219,6 @@ export const DataProvider = ({ children }) => {
     }, [])
 
     // Footer data
-
-
     useEffect(() => {
         fetch('http://localhost:3001/footer')
             .then((response) => {
@@ -223,8 +239,176 @@ export const DataProvider = ({ children }) => {
             })
     }, [])
 
+    // Services page data
+    useEffect(() => {
+        fetch('http://localhost:3001/services_page')
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error("Response not ok");
+                }
+                return response.json()
+            })
+            .then((data) => {
+                setServicePageData(data)
+                setLoading(false)
+            })
+            .catch((error) => {
+                console.error("Error fetching data");
+                setError(error.message)
+                setLoading(false)
+
+            })
+    }, [])
+
+    // Services details page data
+    useEffect(() => {
+        fetch('http://localhost:3001/services_page')
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error("Response not ok");
+                }
+                return response.json();
+            })
+            .then((data) => {
+                setServiceDetailData(data);
+                setLoading(false);
+            })
+            .catch((error) => {
+                console.error("Error fetching data", error);
+                setError(error.message);
+                setLoading(false);
+            });
+    }, []);
+
+    //   Projects page
+    useEffect(() => {
+        fetch('http://localhost:3001/projects_page')
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error("Response not ok");
+                }
+                return response.json();
+            })
+            .then((data) => {
+                setProjectsData(data);
+                setLoading(false);
+            })
+            .catch((error) => {
+                console.error("Error fetching data", error);
+                setError(error.message);
+                setLoading(false);
+            });
+    }, []);
+
+    // Projects Detail Page
+
+    useEffect(() => {
+        fetch('http://localhost:3001/projects_page')
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error("Response not ok");
+                }
+                return response.json();
+            })
+            .then((data) => {
+                setProDetail(data);
+                setLoading(false);
+            })
+            .catch((error) => {
+                console.error("Error fetching data", error);
+                setError(error.message);
+                setLoading(false);
+            });
+    }, []);
+
+    // Blogs Page 
+    useEffect(() => {
+        fetch('http://localhost:3001/blogs_page')
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error("Response not ok");
+                }
+                return response.json()
+            })
+            .then((data) => {
+                setBlogData(data)
+                setLoading(false)
+            })
+            .catch((error) => {
+                console.error("Error fetching data");
+                setError(error.message)
+                setLoading(false)
+
+            })
+    }, [])
+
+    // Blogs Detail Page
+    useEffect(() => {
+        fetch('http://localhost:3001/blogs_page')
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error("Response not ok");
+                }
+                return response.json();
+            })
+            .then((data) => {
+                setDetailData(data);
+                setLoading(false);
+            })
+            .catch((error) => {
+                console.error("Error fetching data", error);
+                setError(error.message);
+                setLoading(false);
+            });
+    }, []);
+
+    // About Us page
+    useEffect(() => {
+        fetch('http://localhost:3001/about_page')
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error("Response not ok");
+                }
+                return response.json()
+            })
+            .then((data) => {
+                setAboutPageData(data)
+                setLoading(false)
+            })
+            .catch((error) => {
+                console.error("Error fetching data");
+                setError(error.message)
+                setLoading(false)
+
+            })
+    }, [])
+
+    // Contact page
+    useEffect(() => {
+        fetch('http://localhost:3001/contact_page')
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error("Response not ok");
+                }
+                return response.json()
+            })
+            .then((data) => {
+                setContactpageData(data)
+                setLoading(false)
+            })
+            .catch((error) => {
+                console.error("Error fetching data");
+                setError(error.message)
+                setLoading(false)
+
+            })
+    }, [])
+
     return (
-        <DataContext.Provider value={{ data, loading, error, linkdata, banner, aboutdata, projectdata, servicedata, servicelinkdata, partnerdata, contactdata, footerdata }}>
+        <DataContext.Provider value={{
+            data, loading, error, linkdata, banner, aboutdata, projectdata, servicedata, servicelinkdata, partnerdata, contactdata, footerdata,
+            servicepagedata, servicedetaildata, projectsdata, prodetail, blogdata, detaildata, contactpagedata, aboutpagedata
+        }}>
             {children}
         </DataContext.Provider>
     )

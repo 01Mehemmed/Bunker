@@ -1,32 +1,12 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import PageHeader from '../../components/PageHeader/PageHeader'
 import './projects.scss'
 import Cards from '../../components/Cards/Cards'
+import { DataContext } from '../../DataContext/DataContext'
 
 const Projects = () => {
-  const [projectsdata, setProjectsData] = useState([])
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState(null)
+  const { projectsdata, loading, error } = useContext(DataContext)
 
-  useEffect(() => {
-    fetch('http://localhost:3001/projects_page')
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Response not ok");
-        }
-        return response.json()
-      })
-      .then((data) => {
-        setProjectsData(data)
-        setLoading(false)
-      })
-      .catch((error) => {
-        console.error("Error fetching data");
-        setError(error.message)
-        setLoading(false)
-
-      })
-  }, [])
 
   if (loading) {
     return <p>Loading...</p>;

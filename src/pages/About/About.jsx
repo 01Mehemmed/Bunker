@@ -1,31 +1,11 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import PageHeader from '../../components/PageHeader/PageHeader'
 import AboutClasses from './about.module.scss'
+import { DataContext } from '../../DataContext/DataContext'
 
 const About = () => {
-  const [aboutdata, setAboutData] = useState([])
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState(null)
+  const { aboutpagedata, loading, error } = useContext(DataContext)
 
-  useEffect(() => {
-    fetch('http://localhost:3001/about_page')
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Response not ok");
-        }
-        return response.json()
-      })
-      .then((data) => {
-        setAboutData(data)
-        setLoading(false)
-      })
-      .catch((error) => {
-        console.error("Error fetching data");
-        setError(error.message)
-        setLoading(false)
-
-      })
-  }, [])
 
   if (loading) {
     return <p>Loading...</p>;
@@ -37,26 +17,26 @@ const About = () => {
   }
 
 
-  if (!aboutdata) {
+  if (!aboutpagedata) {
     return <p>No data found.</p>;
   }
   return (
     <>
-      <PageHeader banner={aboutdata.about_banner} title={aboutdata.title} />
+      <PageHeader banner={aboutpagedata.about_banner} title={aboutpagedata.title} />
       <section className={AboutClasses.about}>
         <div className={AboutClasses.container}>
           <div className={AboutClasses.about_description}>
             <div className={AboutClasses.about_image}>
-              <img src={aboutdata.image} alt="About Image" />
+              <img src={aboutpagedata.image} alt="About Image" />
             </div>
             <div className={AboutClasses.about_content}>
               <div className={AboutClasses.content_title}>
-                <h3>{aboutdata.title}</h3>
-                <h4>{aboutdata.content_description}</h4>
+                <h3>{aboutpagedata.title}</h3>
+                <h4>{aboutpagedata.content_description}</h4>
               </div>
               <div className={AboutClasses.content_text}>
                 <p>
-                  {aboutdata.content_text}
+                  {aboutpagedata.content_text}
                 </p>
               </div>
             </div>
@@ -64,12 +44,12 @@ const About = () => {
           <div className={AboutClasses.about_cards}>
             <div className={AboutClasses.cards_title}>
               <h3>
-                {aboutdata.cards_title}
+                {aboutpagedata.cards_title}
               </h3>
             </div>
             <div className={AboutClasses.cards}>
               {
-                aboutdata?.about_cards?.map((item) => (
+                aboutpagedata?.about_cards?.map((item) => (
                   <div key={item.id} className={AboutClasses.card}>
                     <div className={AboutClasses.title}>
                       <h3>{item.title}</h3>

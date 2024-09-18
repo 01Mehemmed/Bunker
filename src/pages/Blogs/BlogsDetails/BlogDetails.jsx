@@ -1,35 +1,15 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { useParams } from 'react-router';
 import PageHeader from '../../../components/PageHeader/PageHeader';
 import DetailCLasses from './BlogDetails.module.scss'
 import { FaCubesStacked } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
+import { DataContext } from '../../../DataContext/DataContext';
 
 const BlogDetails = () => {
-    const { detailId } = useParams(); 
+    const { detailId } = useParams();
 
-    const [detaildata, setDetailData] = useState({}); 
-    const [loading, setLoading] = useState(true); 
-    const [error, setError] = useState(null); 
-
-    useEffect(() => {
-        fetch('http://localhost:3001/blogs_page')
-            .then((response) => {
-                if (!response.ok) {
-                    throw new Error("Response not ok");
-                }
-                return response.json();
-            })
-            .then((data) => {
-                setDetailData(data);
-                setLoading(false);
-            })
-            .catch((error) => {
-                console.error("Error fetching data", error);
-                setError(error.message);
-                setLoading(false);
-            });
-    }, []);
+    const { detaildata, loading, error } = useContext(DataContext)
 
     if (loading) {
         return <p>Loading...</p>;

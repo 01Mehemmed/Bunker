@@ -1,5 +1,4 @@
 import React from 'react'
-import MainLayout from '../../layouts/MainLayout/MainLayout'
 import Banner from '../../components/Banner/Banner'
 import ProjectsSec from '../../components/Projects/ProjectsSec'
 import ServicesSec from '../../components/ServicesSec/ServicesSec'

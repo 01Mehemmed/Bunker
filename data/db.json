@@ -107,7 +107,7 @@
             }
         ],
         "button_title": "See more",
-        "button_link":"Projects"
+        "button_link": "Projects"
     },
     "services": {
         "id": 1,
@@ -133,14 +133,14 @@
             }
         ],
         "button_title": "See more",
-        "button_link":"/Services"
+        "button_link": "/Services"
     },
     "services_link": {
         "id": 1,
         "icon": "/media/images/servicessec.png",
         "text": "You will be satisfy with our work contact us today & help is on the way",
         "button": "Schedule a Service",
-        "button_link":"/services"
+        "button_link": "/services"
     },
     "OurPartner": {
         "id": 1,
@@ -243,6 +243,7 @@
         "id": 1,
         "banner": "/media/images/ServicesHeaderBanner.png",
         "title": "Services",
+        "detail_banner": "/media/images/ServicesDetailBanner.jpg",
         "services_cards": [
             {
                 "id": 1,
@@ -1015,9 +1016,10 @@
     },
     "contact_page": {
         "id": 1,
-        "banner":"/media/images/ContactBanner.png",
-        "title":"Contact Us",
+        "banner": "/media/images/ContactBanner.png",
+        "title": "Contact Us",
         "cards_title": "MEET OUR BEST TEAM",
+        "vector_img":"../../../public/media/images/Vector.png",
         "contact_cards": [
             {
                 "id": 1,

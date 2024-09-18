@@ -1,35 +1,14 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import PageHeader from '../../../components/PageHeader/PageHeader'
 import { useParams } from 'react-router';
-import DetailCLasses from './projectdetails.module.css'
+import DetailCLasses from './projectdetails.module.scss'
 import { Link } from 'react-router-dom';
 import { FaCubesStacked } from 'react-icons/fa6';
+import { DataContext } from '../../../DataContext/DataContext';
 
 const ProjectDetails = () => {
-    const { detailId } = useParams(); // detailId string gelir
-
-    const [prodetail, setProDetail] = useState({}); // Proje verilerini saklamak için
-    const [loading, setLoading] = useState(true); // Yüklenme durumunu izlemek için
-    const [error, setError] = useState(null); // Hata yakalamak için
-
-    useEffect(() => {
-        fetch('http://localhost:3001/projects_page') // API çağrısı
-            .then((response) => {
-                if (!response.ok) {
-                    throw new Error("Response not ok");
-                }
-                return response.json();
-            })
-            .then((data) => {
-                setProDetail(data); // Veriyi set et
-                setLoading(false);
-            })
-            .catch((error) => {
-                console.error("Error fetching data", error);
-                setError(error.message);
-                setLoading(false);
-            });
-    }, []);
+    const { detailId } = useParams();
+    const { prodetail, loading, error } = useContext(DataContext)
 
     if (loading) {
         return <p>Loading...</p>;

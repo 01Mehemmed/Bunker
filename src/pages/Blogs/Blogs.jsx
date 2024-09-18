@@ -1,42 +1,20 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import PageHeader from '../../components/PageHeader/PageHeader'
 import './blogs.scss'
 import Cards from '../../components/Cards/Cards'
+import { DataContext } from '../../DataContext/DataContext'
 
 const Projects = () => {
-  const [blogdata, setBlogData] = useState([])
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState(null)
+  const { blogdata, loading, error } = useContext(DataContext)
 
-  useEffect(() => {
-    fetch('http://localhost:3001/blogs_page')
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Response not ok");
-        }
-        return response.json()
-      })
-      .then((data) => {
-        setBlogData(data)
-        setLoading(false)
-      })
-      .catch((error) => {
-        console.error("Error fetching data");
-        setError(error.message)
-        setLoading(false)
-
-      })
-  }, [])
-
+  
   if (loading) {
     return <p>Loading...</p>;
   }
 
-
   if (error) {
     return <p>Error: {error}</p>;
   }
-
 
   if (!blogdata) {
     return <p>No data found.</p>;

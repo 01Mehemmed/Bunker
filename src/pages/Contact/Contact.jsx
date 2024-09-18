@@ -1,35 +1,13 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import PageHeader from '../../components/PageHeader/PageHeader'
-import Background from '../../../public/media/images/Vector.png'
 import ContactUsSec from '../../components/Contact us/ContactUsSec'
 
 import ContactClasses from './contact.module.scss'
+import { DataContext } from '../../DataContext/DataContext'
 
 const Contact = () => {
+  const { contactpagedata, loading, error } = useContext(DataContext)
 
-  const [contactdata, setContactData] = useState([])
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState(null)
-
-  useEffect(() => {
-    fetch('http://localhost:3001/contact_page')
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Response not ok");
-        }
-        return response.json()
-      })
-      .then((data) => {
-        setContactData(data)
-        setLoading(false)
-      })
-      .catch((error) => {
-        console.error("Error fetching data");
-        setError(error.message)
-        setLoading(false)
-
-      })
-  }, [])
 
   if (loading) {
     return <p>Loading...</p>;
@@ -41,24 +19,24 @@ const Contact = () => {
   }
 
 
-  if (!contactdata) {
+  if (!contactpagedata) {
     return <p>No data found.</p>;
   }
   return (
     <>
-      <PageHeader banner={contactdata.banner} title={contactdata.title} />
+      <PageHeader banner={contactpagedata.banner} title={contactpagedata.title} />
       <ContactUsSec />
       <section className={ContactClasses.contact_us}>
         <div className={ContactClasses.page_background}>
-          <img src={Background} alt="Page Background" />
+          <img src={contactpagedata.vector_img} alt="Page Background" />
         </div>
         <div className={ContactClasses.container}>
           <div className={ContactClasses.contact_title}>
-            <h2>{contactdata.cards_title}</h2>
+            <h2>{contactpagedata.cards_title}</h2>
           </div>
           <div className={ContactClasses.wrapper}>
             {
-              contactdata?.contact_cards?.map((item) => (
+              contactpagedata?.contact_cards?.map((item) => (
                 <div className={ContactClasses.card} key={item.id}>
                   <img src={item.image} />
                   <div className={ContactClasses.info}>
