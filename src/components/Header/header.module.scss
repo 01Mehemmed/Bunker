@@ -45,8 +45,7 @@ header {
                         font-family: 'Poppins-regular';
                         position: relative;
 
-                        &::before,
-                        &.active::before {
+                        &::before {
                             content: '';
                             position: absolute;
                             top: 2.4rem;
@@ -65,15 +64,10 @@ header {
                             width: 40%;
                         }
 
-                        &.active::after {
+                         a .active::after {
                             width: 40%;
                         }
-
-                        &.active {
-                            background-color: var(--);
-                        }
                     }
-
                 }
             }
         }

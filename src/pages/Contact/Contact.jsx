@@ -3,7 +3,7 @@ import PageHeader from '../../components/PageHeader/PageHeader'
 import Background from '../../../public/media/images/Vector.png'
 import ContactUsSec from '../../components/Contact us/ContactUsSec'
 
-import ContactClasses from './contact.module.css'
+import ContactClasses from './contact.module.scss'
 
 const Contact = () => {
 
@@ -70,9 +70,6 @@ const Contact = () => {
             }
           </div>
         </div>
-        {/* <div className={ContactClasses.page_background}>
-          <img src={Background} alt="Page Background" />
-        </div> */}
       </section>
     </>
   )

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import PageHeader from '../../components/PageHeader/PageHeader'
-import './blogs.css'
+import './blogs.scss'
 import Cards from '../../components/Cards/Cards'
 
 const Projects = () => {
@@ -44,7 +44,7 @@ const Projects = () => {
   return (
     <>
       <PageHeader banner={blogdata.banner} title={blogdata.title} />
-      <section className="projects_cards">
+      <section className="blog_cards">
         <div className="container">
           <div className="cards">
             {

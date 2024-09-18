@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router';
 import PageHeader from '../../../components/PageHeader/PageHeader';
-import DetailCLasses from './BlogDetails.module.css'
+import DetailCLasses from './BlogDetails.module.scss'
 import { FaCubesStacked } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
 

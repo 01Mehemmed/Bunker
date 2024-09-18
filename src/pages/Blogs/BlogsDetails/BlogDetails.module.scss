@@ -15,6 +15,7 @@
             gap: 7rem;
 
             .image {
+                height: 43rem;
                 overflow: hidden;
                 border-radius: 10px;
             }
@@ -54,11 +55,6 @@
                                 cursor: pointer;
                                 font-family: 'Poppins-bold';
 
-                                &:disabled {
-                                    background-color: transparent;
-                                    border: none;
-                                    cursor: not-allowed;
-                                }
                             }
                         }
 
@@ -70,6 +66,12 @@
                 }
             }
         }
+    }
+
+    button:disabled {
+        background-color: transparent;
+        border: none;
+        cursor: not-allowed;
     }
 
     .detail_list {
