@@ -1,5 +1,5 @@
 import React from 'react'
-import CardsClasses from './cards.module.css'
+import CardsClasses from './cards.module.scss'
 import { Link } from 'react-router-dom'
 import { IoChevronForward } from 'react-icons/io5'
 

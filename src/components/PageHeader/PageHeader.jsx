@@ -1,5 +1,5 @@
 import React from 'react'
-import PageHeaderClasses from './PageHeader.module.css'
+import PageHeaderClasses from './PageHeader.module.scss'
 
 const PageHeader = ({ banner, title, isContactPage }) => {
     return (

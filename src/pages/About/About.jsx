@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import PageHeader from '../../components/PageHeader/PageHeader'
-import AboutClasses from './about.module.css'
+import AboutClasses from './about.module.scss'
 
 const About = () => {
   const [aboutdata, setAboutData] = useState([])
