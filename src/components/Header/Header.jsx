@@ -5,7 +5,6 @@ import SelectOption from '../Select-Option/SelectOption'
 import HeaderLogo from '../../../public/media/images/Logo.png'
 import { IoIosSearch } from 'react-icons/io'
 import Dropdown from './Dropdown-menu/Dropdown'
-import Icons from './SocialMedia/icons'
 import { DataContext } from '../../DataContext/DataContext'
 import Search from './Search/Search'
 
