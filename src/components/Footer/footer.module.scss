@@ -1,0 +1,304 @@
+$icon-size: 5rem;
+$border-radius: 0.5;
+$green: var(--bg-color-4);
+$white: #ffffff;
+
+.Footer {
+    background-color: var(--bg-color-footer);
+    padding-top: 5rem;
+
+    .container {
+        max-width: 130rem;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        padding-bottom: 5rem;
+
+        .pages_services {
+            display: flex;
+            gap: 5rem;
+
+            .left {
+                .menu_box {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2.5rem;
+
+                    ul {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2rem;
+
+                        li {
+                            a {
+                                font-size: 1.2rem;
+                                color: var(--color-2);
+                                font-family: 'Poppins-regular';
+                                font-weight: 400;
+                                display: flex;
+                                align-items: center;
+                                transition: all 0.3s ease;
+
+                                svg {
+                                    display: none;
+                                    color: var(--hover-1);
+                                    transform: translateX(5rem);
+                                }
+
+                                &:hover {
+                                    color: var(--hover-1);
+                                }
+
+                                &:hover svg {
+                                    display: inline-block;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .right {
+                .menu_box {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2.5rem;
+
+                    ul {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2rem;
+
+                        li {
+                            a {
+                                font-size: 1.2rem;
+                                color: var(--color-2);
+                                font-family: 'Poppins-regular';
+                                font-weight: 400;
+                                display: flex;
+                                align-items: center;
+                                transition: all 0.3s ease;
+
+                                svg {
+                                    display: none;
+                                    color: var(--hover-1);
+                                    transform: translateX(5rem);
+                                }
+
+                                &:hover {
+                                    color: var(--hover-1);
+                                }
+
+                                &:hover svg {
+                                    display: inline-block;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .contact_us {
+            display: flex;
+            gap: 5rem;
+
+            .left {
+                max-width: 16rem;
+
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2rem;
+
+                    li {
+                        font-size: 1rem;
+                        color: var(--color-2);
+                        font-family: 'Poppins-regular';
+                        font-weight: 400;
+
+                        a {
+                            font-size: 1rem;
+                            color: var(--color-2);
+                            font-family: 'Poppins-regular';
+                            font-weight: 400;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .right {
+                .top {
+                    ul {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 2rem;
+
+                        li {
+                            a {
+                                cursor: pointer;
+                                position: relative;
+                                display: inline-block;
+                                width: $icon-size;
+                                height: $icon-size;
+                                border-radius: calc($icon-size * $border-radius);
+                                overflow: hidden;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+
+                                &::before,
+                                &::after {
+                                    content: "";
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    height: 100%;
+                                    width: 100%;
+                                    transition: all 0.25s ease;
+                                    border-radius: calc($icon-size * $border-radius);
+                                }
+
+                                svg {
+                                    position: relative;
+                                    color: $white;
+                                    font-size: clamp(1.6rem, 1.7308vw + .7692rem, 2.5rem);
+                                    ;
+                                    transition: all 0.25s ease;
+                                }
+                            }
+
+                            a {
+                                &::before {
+                                    transition-duration: 0.5s;
+                                    box-shadow: inset 0 0 0 1px $green;
+                                }
+
+                                &:hover::before {
+                                    box-shadow: inset 0 0 0 $icon-size $green;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .Author {
+        width: 100%;
+        background-color: var(--bg-color-2);
+        display: flex;
+        justify-content: center;
+        padding: 3rem 0;
+
+        p {
+            font-size: clamp(1.2rem, 2.4306vw + .0333rem, 1.9rem);
+            font-family: 'Roboto-regular';
+            font-weight: 400;
+
+            a {
+                color: var(--color-1);
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+h3 {
+    font-size: clamp(1.2rem, .6944vw + .8667rem, 1.4rem);
+    color: var(--color-2);
+    font-family: 'Poppins-regular';
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+
+// Responsive
+
+@media screen and (max-width:1000px) {
+    $icon-size: 4rem;
+
+    .Footer {
+        .container {
+
+            .pages_services,
+            .contact_us {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .contact_us {
+                gap: 12rem;
+
+                .right {
+                    .top {
+                        ul {
+                            li {
+                                a {
+                                    width: $icon-size;
+                                    height: $icon-size;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    $icon-size: 3rem;
+
+    .Footer {
+        .container {
+            gap: 0.5rem;
+
+            .contact_us {
+                .right {
+                    .top {
+                        ul {
+                            flex-wrap: wrap;
+
+                            li {
+                                a {
+                                    width: $icon-size;
+                                    height: $icon-size;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:375px) {
+    .Footer {
+        .container {
+            flex-direction: column;
+            gap: 4rem;
+
+            .pages_services {
+                align-items: start;
+            }
+
+            .contact_us {
+                align-items: start;
+                gap: 5rem;
+            }
+        }
+    }
+}

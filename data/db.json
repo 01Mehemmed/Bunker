@@ -1,0 +1,1042 @@
+{
+    "navbar": [
+        {
+            "id": 1,
+            "name": "Services",
+            "path": "/Services"
+        },
+        {
+            "id": 2,
+            "name": "Projects",
+            "path": "/Projects"
+        },
+        {
+            "id": 3,
+            "name": "Blogs",
+            "path": "/Blogs"
+        },
+        {
+            "id": 4,
+            "name": "About Us",
+            "path": "/About"
+        },
+        {
+            "id": 5,
+            "name": "Contact Us",
+            "path": "/Contact"
+        }
+    ],
+    "select-option": [
+        {
+            "id": 1,
+            "name": "Az"
+        },
+        {
+            "id": 2,
+            "name": "Eng"
+        },
+        {
+            "id": 3,
+            "name": "RU"
+        }
+    ],
+    "social_links": {
+        "id": 1,
+        "face_link": "https://www.facebook.com/",
+        "insta_link": "https://www.instagram.com/",
+        "tiktok_link": "https://www.tiktok.com/",
+        "x_link": "https://www.x.com/",
+        "youtube_link": "https://www.youtube.com/"
+    },
+    "banner": {
+        "id": 1,
+        "title": "EMS Contarting",
+        "text": "Delivering first-class commercial maintenance nation wide 24/7",
+        "button": "Make an Enquiry",
+        "button_link": "/About",
+        "image": "/media/images/Banner.png"
+    },
+    "about": {
+        "id": 1,
+        "title": "About Us",
+        "subtitle": "Welcome to EMS Contracting",
+        "text": "EMS Contracting, founded in 2013 by Mick Donkin and Kris Armstrong then later joined by key director Daryl Shepherd,incorporates 3 divisions - Metering, Renewables and Recycling.",
+        "button": "See More",
+        "button_link": "/About",
+        "image": "/media/images/AboutSec.jpg",
+        "logos": [
+            {
+                "id": 1,
+                "logo": "/media/images/AboutGroup.png"
+            },
+            {
+                "id": 2,
+                "logo": "/media/images/AboutGroup2.png"
+            },
+            {
+                "id": 3,
+                "logo": "/media/images/AboutGroup3.png"
+            },
+            {
+                "id": 4,
+                "logo": "/media/images/AboutGroup4.png"
+            }
+        ]
+    },
+    "projects": {
+        "id": 1,
+        "title": "Projects",
+        "cards": [
+            {
+                "id": 1,
+                "image": "/media/images/Projects1.jpg",
+                "card_title": "Electrical and Mechanica",
+                "button": "Book now"
+            },
+            {
+                "id": 2,
+                "image": "/media/images/Projects2.jpg",
+                "card_title": "Air Condition and Ventilation",
+                "button": "Book now"
+            },
+            {
+                "id": 3,
+                "image": "/media/images/Projects3.png",
+                "card_title": "Refigeration",
+                "button": "Book now"
+            }
+        ],
+        "button_title": "See more",
+        "button_link":"Projects"
+    },
+    "services": {
+        "id": 1,
+        "title": "Services",
+        "cards": [
+            {
+                "id": 1,
+                "image": "/media/images/Projects1.jpg",
+                "card_header": "Electrical and Mechanica",
+                "button": "Book now"
+            },
+            {
+                "id": 2,
+                "image": "/media/images/Projects2.jpg",
+                "card_header": "Air Condition and Ventilation",
+                "button": "Book now"
+            },
+            {
+                "id": 3,
+                "image": "/media/images/Projects3.png",
+                "card_header": "Refigeration",
+                "button": "Book now"
+            }
+        ],
+        "button_title": "See more",
+        "button_link":"/Services"
+    },
+    "services_link": {
+        "id": 1,
+        "icon": "/media/images/servicessec.png",
+        "text": "You will be satisfy with our work contact us today & help is on the way",
+        "button": "Schedule a Service",
+        "button_link":"/services"
+    },
+    "OurPartner": {
+        "id": 1,
+        "title": "Our Partner",
+        "images": [
+            {
+                "id": 1,
+                "image": "/media/images/ourpartner1.png"
+            },
+            {
+                "id": 2,
+                "image": "/media/images/ourpartner2.png"
+            }
+        ]
+    },
+    "Contactus": {
+        "id": 1,
+        "title": "Get in",
+        "orange": "Touch",
+        "text": "Services from us are trusted, reliable and professional. Please fill out the form completely, and we will get back to you as soon as possible",
+        "submit_btn": "Send",
+        "location": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d97252.92244912653!2d49.840128!3d40.3832832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2saz!4v1725476227420!5m2!1str!2saz",
+        "contact_title": "Phone",
+        "number": "+994 050 555 55 55",
+        "contact_title2": "Fax",
+        "number2": "+994 050 555 55 55",
+        "contact_title3": "Mail",
+        "mail": "user@gmail.com"
+    },
+    "footer": {
+        "id": 1,
+        "title_menu": "EMS Contracting",
+        "title_services": "Services",
+        "title_contact": "Contact US",
+        "title_social": "Follow us",
+        "loaction": "EMS, Unit 19, City Road,  Inner man Street,Switzerland, SR5 2BN",
+        "number": "+994 050 555 55 55",
+        "mail": "user@gmail.com",
+        "menu": [
+            {
+                "id": 1,
+                "title": "Home",
+                "path": "/"
+            },
+            {
+                "id": 2,
+                "title": "Projects",
+                "path": "/Projects"
+            },
+            {
+                "id": 3,
+                "title": "Services",
+                "path": "/Services"
+            },
+            {
+                "id": 4,
+                "title": "Blogs",
+                "path": "/Blogs"
+            },
+            {
+                "id": 5,
+                "title": "Contact Us",
+                "path": "/Contact"
+            }
+        ],
+        "services_menu": [
+            {
+                "id": 1,
+                "title": "Electrical and Mechanical"
+            },
+            {
+                "id": 2,
+                "title": "Air Conditioning and Ventilation"
+            },
+            {
+                "id": 3,
+                "title": "F Gas Regulation"
+            },
+            {
+                "id": 4,
+                "title": "Renewable Energy and Heating"
+            },
+            {
+                "id": 5,
+                "title": "Electricity and Gas Metering"
+            }
+        ],
+        "author_text": " @ 2024 All right reserved.",
+        "author": "WebCoder",
+        "social_links": {
+            "id": 1,
+            "face_link": "https://www.facebook.com/",
+            "insta_link": "https://www.instagram.com/",
+            "tiktok_link": "https://www.tiktok.com/",
+            "x_link": "https://www.x.com/",
+            "youtube_link": "https://www.youtube.com/"
+        }
+    },
+    "services_page": {
+        "id": 1,
+        "banner": "/media/images/ServicesHeaderBanner.png",
+        "title": "Services",
+        "services_cards": [
+            {
+                "id": 1,
+                "image": "/media/images/Projects1.jpg",
+                "description": "Electrical and Mechanical",
+                "button": "Book now"
+            },
+            {
+                "id": 2,
+                "image": "/media/images/Projects2.jpg",
+                "description": "Air Condition and Ventilation",
+                "button": "Book now"
+            },
+            {
+                "id": 3,
+                "image": "/media/images/Projects3.png",
+                "description": "Refigeration",
+                "button": "Book now"
+            },
+            {
+                "id": 4,
+                "image": "/media/images/Cards.jpg",
+                "description": "F Gas Regulation",
+                "button": "Book now"
+            },
+            {
+                "id": 5,
+                "image": "/media/images/Cards2.jpg",
+                "description": "Renewable Energy and Heating",
+                "button": "Book now"
+            },
+            {
+                "id": 6,
+                "image": "/media/images/Cards3.jpg",
+                "description": "Elecetricty and Gas and Metering",
+                "button": "Book now"
+            },
+            {
+                "id": 7,
+                "image": "/media/images/Cards4.jpg",
+                "description": "Waste Reacyling",
+                "button": "Book now"
+            }
+        ],
+        "sidebar": [
+            {
+                "id": 1,
+                "title": "Electrical and Mechanical"
+            },
+            {
+                "id": 2,
+                "title": "Air Condition and Ventilation"
+            },
+            {
+                "id": 3,
+                "title": "Refigeration"
+            },
+            {
+                "id": 4,
+                "title": "Renewable Energy and Heating"
+            },
+            {
+                "id": 5,
+                "title": "Elecetricty and Gas and Metering"
+            },
+            {
+                "id": 6,
+                "title": "F Gas Regulation"
+            },
+            {
+                "id": "7",
+                "title": "Waste Recyling"
+            }
+        ],
+        "service_details": [
+            {
+                "id": "1",
+                "image": "/media/images/Detail.png",
+                "title": "Electrical and Mechanical",
+                "details": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                "quality_list": [
+                    {
+                        "id": 1,
+                        "icon": "/media/images/Low Price.png",
+                        "title": "Low Cost"
+                    },
+                    {
+                        "id": 2,
+                        "icon": "/media/images/Last 24 Hours.png",
+                        "title": "Avaliable  24 hours"
+                    },
+                    {
+                        "id": 3,
+                        "icon": "/media/images/Software.png",
+                        "title": "Licensed & Insured"
+                    },
+                    {
+                        "id": 4,
+                        "icon": "/media/images/Brainstorm Skill.png",
+                        "title": "Skilled Handyman"
+                    }
+                ]
+            },
+            {
+                "id": "2",
+                "image": "/media/images/Detail1.png",
+                "title": "Air Condition and Ventilation",
+                "details": "Electro and mecho et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                "quality_list": [
+                    {
+                        "id": 1,
+                        "icon": "/media/images/Low Price.png",
+                        "title": "Low Cost"
+                    },
+                    {
+                        "id": 2,
+                        "icon": "/media/images/Last 24 Hours.png",
+                        "title": "Avaliable  24 hours"
+                    },
+                    {
+                        "id": 3,
+                        "icon": "/media/images/Software.png",
+                        "title": "Licensed & Insured"
+                    },
+                    {
+                        "id": 4,
+                        "icon": "/media/images/Brainstorm Skill.png",
+                        "title": "Skilled Handyman"
+                    }
+                ]
+            },
+            {
+                "id": "3",
+                "image": "/media/images/Detail2.png",
+                "title": "Refigeration",
+                "details": "Refigeration vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                "quality_list": [
+                    {
+                        "id": 1,
+                        "icon": "/media/images/Low Price.png",
+                        "title": "Low Cost"
+                    },
+                    {
+                        "id": 2,
+                        "icon": "/media/images/Last 24 Hours.png",
+                        "title": "Avaliable  24 hours"
+                    },
+                    {
+                        "id": 3,
+                        "icon": "/media/images/Software.png",
+                        "title": "Licensed & Insured"
+                    },
+                    {
+                        "id": 4,
+                        "icon": "/media/images/Brainstorm Skill.png",
+                        "title": "Skilled Handyman"
+                    }
+                ]
+            },
+            {
+                "id": "4",
+                "image": "/media/images/Detail3.png",
+                "title": "F Gas Regulation",
+                "details": "F Gas Regulation et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                "quality_list": [
+                    {
+                        "id": 1,
+                        "icon": "/media/images/Low Price.png",
+                        "title": "Low Cost"
+                    },
+                    {
+                        "id": 2,
+                        "icon": "/media/images/Last 24 Hours.png",
+                        "title": "Avaliable  24 hours"
+                    },
+                    {
+                        "id": 3,
+                        "icon": "/media/images/Software.png",
+                        "title": "Licensed & Insured"
+                    },
+                    {
+                        "id": 4,
+                        "icon": "/media/images/Brainstorm Skill.png",
+                        "title": "Skilled Handyman"
+                    }
+                ]
+            },
+            {
+                "id": "5",
+                "image": "/media/images/Detail4.png",
+                "title": "Renewable Energy and Heating",
+                "details": "Renewable Energy and Heating accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                "quality_list": [
+                    {
+                        "id": 1,
+                        "icon": "/media/images/Low Price.png",
+                        "title": "Low Cost"
+                    },
+                    {
+                        "id": 2,
+                        "icon": "/media/images/Last 24 Hours.png",
+                        "title": "Avaliable  24 hours"
+                    },
+                    {
+                        "id": 3,
+                        "icon": "/media/images/Software.png",
+                        "title": "Licensed & Insured"
+                    },
+                    {
+                        "id": 4,
+                        "icon": "/media/images/Brainstorm Skill.png",
+                        "title": "Skilled Handyman"
+                    }
+                ]
+            },
+            {
+                "id": "6",
+                "image": "/media/images/Detail5.png",
+                "title": "Elecetricty and Gas and Metering",
+                "details": "Elecetricty and Gas and Metering et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                "quality_list": [
+                    {
+                        "id": 1,
+                        "icon": "/media/images/Low Price.png",
+                        "title": "Low Cost"
+                    },
+                    {
+                        "id": 2,
+                        "icon": "/media/images/Last 24 Hours.png",
+                        "title": "Avaliable  24 hours"
+                    },
+                    {
+                        "id": 3,
+                        "icon": "/media/images/Software.png",
+                        "title": "Licensed & Insured"
+                    },
+                    {
+                        "id": 4,
+                        "icon": "/media/images/Brainstorm Skill.png",
+                        "title": "Skilled Handyman"
+                    }
+                ]
+            },
+            {
+                "id": "7",
+                "image": "/media/images/Detail6.png",
+                "title": "Waste Recyling",
+                "details": "Renewable Energy and Heating accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                "quality_list": [
+                    {
+                        "id": 1,
+                        "icon": "/media/images/Low Price.png",
+                        "title": "Low Cost"
+                    },
+                    {
+                        "id": 2,
+                        "icon": "/media/images/Last 24 Hours.png",
+                        "title": "Avaliable  24 hours"
+                    },
+                    {
+                        "id": 3,
+                        "icon": "/media/images/Software.png",
+                        "title": "Licensed & Insured"
+                    },
+                    {
+                        "id": 4,
+                        "icon": "/media/images/Brainstorm Skill.png",
+                        "title": "Skilled Handyman"
+                    }
+                ]
+            }
+        ]
+    },
+    "projects_page": {
+        "id": 1,
+        "banner": "/media/images/ServicesHeaderBanner.png",
+        "title": "Projects",
+        "project_cards": [
+            {
+                "id": 1,
+                "image": "/media/images/ProjectCard.png",
+                "button": "Crook Church Hope Bank"
+            },
+            {
+                "id": 2,
+                "image": "/media/images/ProjectCard2.png",
+                "button": "LED Lighting Project"
+            },
+            {
+                "id": 3,
+                "image": "/media/images/ProjectCard3.png",
+                "button": "Lab and Mezzanine"
+            },
+            {
+                "id": 4,
+                "image": "/media/images/ProjectCard4.png",
+                "button": "Parker Hannifing"
+            },
+            {
+                "id": 5,
+                "image": "/media/images/ProjectCard5.png",
+                "button": "Port of Call, Sunderland"
+            },
+            {
+                "id": 6,
+                "image": "/media/images/ProjectCard6.png",
+                "button": "SG Petch - Mazda LED"
+            }
+        ],
+        "project_details": [
+            {
+                "id": "1",
+                "image": "/media/images/pexels-pixabay-53176.jpg",
+                "title": "Project Detail 1",
+                "details": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                "next_btn": "Next",
+                "prev_btn": "Previous",
+                "detail_list": [
+                    {
+                        "id": 1,
+                        "title": "Date:",
+                        "description": "September 15, 2021"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Client:",
+                        "description": "Industrial Company"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Locaiton:",
+                        "description": "New-York, USA"
+                    },
+                    {
+                        "id": 4,
+                        "title": "Category:",
+                        "description": "Home protetction"
+                    }
+                ]
+            },
+            {
+                "id": "2",
+                "image": "/media/images/pexels-expect-best-79873-323772.jpg",
+                "title": "Project Detail 2",
+                "details": "Electro and mecho et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                "next_btn": "Next",
+                "prev_btn": "Previous",
+                "detail_list": [
+                    {
+                        "id": 1,
+                        "title": "Date:",
+                        "description": "May 15, 2021"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Client:",
+                        "description": "Industrial Company"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Locaiton:",
+                        "description": "Los-Angeles, USA"
+                    },
+                    {
+                        "id": 4,
+                        "title": "Category:",
+                        "description": "Home protetction"
+                    }
+                ]
+            },
+            {
+                "id": "3",
+                "image": "/media/images/pexels-expect-best-79873-323781.jpg",
+                "title": "Project Detail 3",
+                "details": "Refigeration vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                "next_btn": "Next",
+                "prev_btn": "Previous",
+                "detail_list": [
+                    {
+                        "id": 1,
+                        "title": "Date:",
+                        "description": "April 15, 2021"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Client:",
+                        "description": "Industrial Company"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Locaiton:",
+                        "description": "OSlo, Norway"
+                    },
+                    {
+                        "id": 4,
+                        "title": "Category:",
+                        "description": "Home protetction"
+                    }
+                ]
+            },
+            {
+                "id": "4",
+                "image": "/media/images/pexels-haywardfineartphotography-1702140.jpg",
+                "title": "Project Detail 4",
+                "details": "F Gas Regulation et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                "next_btn": "Next",
+                "prev_btn": "Previous",
+                "detail_list": [
+                    {
+                        "id": 1,
+                        "title": "Date:",
+                        "description": "March 15, 2021"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Client:",
+                        "description": "Industrial Company"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Locaiton:",
+                        "description": "Munchen, Germany"
+                    },
+                    {
+                        "id": 4,
+                        "title": "Category:",
+                        "description": "Home protetction"
+                    }
+                ]
+            },
+            {
+                "id": "5",
+                "image": "/media/images/pexels-sevenstormphotography-443378.jpg",
+                "title": "Project Detail 5",
+                "details": "Renewable Energy and Heating accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                "prev_btn": "Previous",
+                "next_btn": "Next",
+                "detail_list": [
+                    {
+                        "id": 1,
+                        "title": "Date:",
+                        "description": "Feburary 15, 2021"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Client:",
+                        "description": "Industrial Company"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Locaiton:",
+                        "description": "Baku, Azerbaijan"
+                    },
+                    {
+                        "id": 4,
+                        "title": "Category:",
+                        "description": "Home protetction"
+                    }
+                ]
+            },
+            {
+                "id": "6",
+                "image": "/media/images/pexels-gerritttisdale-922797.jpg",
+                "title": "Project Detail 6",
+                "details": "Elecetricty and Gas and Metering et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                "next_btn": "Next",
+                "prev_btn": "Previous",
+                "detail_list": [
+                    {
+                        "id": 1,
+                        "title": "Date:",
+                        "description": "January 15, 2021"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Client:",
+                        "description": "Industrial Company"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Locaiton:",
+                        "description": "Sydney, Austuralia"
+                    },
+                    {
+                        "id": 4,
+                        "title": "Category:",
+                        "description": "Home protetction"
+                    }
+                ]
+            }
+        ]
+    },
+    "blogs_page": {
+        "id": 1,
+        "banner": "/media/images/ServicesHeaderBanner.png",
+        "title": "Blogs",
+        "blogs_cards": [
+            {
+                "id": 1,
+                "image": "/media/images/ProjectCard.png",
+                "button": "Crook Church Hope Bank"
+            },
+            {
+                "id": 2,
+                "image": "/media/images/ProjectCard2.png",
+                "button": "LED Lighting Project"
+            },
+            {
+                "id": 3,
+                "image": "/media/images/ProjectCard3.png",
+                "button": "Lab and Mezzanine..."
+            },
+            {
+                "id": 4,
+                "image": "/media/images/ProjectCard4.png",
+                "button": "Parker Hannifin..."
+            },
+            {
+                "id": 5,
+                "image": "/media/images/ProjectCard5.png",
+                "button": "Port of Call, Sunderland"
+            },
+            {
+                "id": 6,
+                "image": "/media/images/ProjectCard6.png",
+                "button": "SG Petch - Mazda LED..."
+            }
+        ],
+        "blogs_details": [
+            {
+                "id": "1",
+                "image": "/media/images/pexels-pixabay-53176.jpg",
+                "title": "Blog 1",
+                "details": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                "next_btn": "Next",
+                "prev_btn": "Previous",
+                "detail_list": [
+                    {
+                        "id": 1,
+                        "title": "Date:",
+                        "description": "September 15, 2021"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Blog Topic:",
+                        "description": "Industrial Company"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Category:",
+                        "description": "Home protetction"
+                    },
+                    {
+                        "id": 4,
+                        "title": "Author",
+                        "description": "John Doe"
+                    }
+                ]
+            },
+            {
+                "id": "2",
+                "image": "/media/images/pexels-expect-best-79873-323772.jpg",
+                "title": "Blog 2",
+                "details": "Electro and mecho et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                "next_btn": "Next",
+                "prev_btn": "Previous",
+                "detail_list": [
+                    {
+                        "id": 1,
+                        "title": "Date:",
+                        "description": "September 15, 2021"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Blog Topic:",
+                        "description": "Industrial Company"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Category:",
+                        "description": "Home protetction"
+                    },
+                    {
+                        "id": 4,
+                        "title": "Author",
+                        "description": "John Doe"
+                    }
+                ]
+            },
+            {
+                "id": "3",
+                "image": "/media/images/pexels-expect-best-79873-323781.jpg",
+                "title": "Blog 3",
+                "details": "Refigeration vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                "next_btn": "Next",
+                "prev_btn": "Previous",
+                "detail_list": [
+                    {
+                        "id": 1,
+                        "title": "Date:",
+                        "description": "September 15, 2021"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Blog Topic:",
+                        "description": "Industrial Company"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Category:",
+                        "description": "Home protetction"
+                    },
+                    {
+                        "id": 4,
+                        "title": "Author",
+                        "description": "John Doe"
+                    }
+                ]
+            },
+            {
+                "id": "4",
+                "image": "/media/images/pexels-haywardfineartphotography-1702140.jpg",
+                "title": "Blog 4",
+                "details": "F Gas Regulation et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                "next_btn": "Next",
+                "prev_btn": "Previous",
+                "detail_list": [
+                    {
+                        "id": 1,
+                        "title": "Date:",
+                        "description": "September 15, 2021"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Blog Topic:",
+                        "description": "Industrial Company"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Category:",
+                        "description": "Home protetction"
+                    },
+                    {
+                        "id": 4,
+                        "title": "Author",
+                        "description": "John Doe"
+                    }
+                ]
+            },
+            {
+                "id": "5",
+                "image": "/media/images/pexels-sevenstormphotography-443378.jpg",
+                "title": "Blog 5",
+                "details": "Renewable Energy and Heating accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                "prev_btn": "Previous",
+                "next_btn": "Next",
+                "detail_list": [
+                    {
+                        "id": 1,
+                        "title": "Date:",
+                        "description": "September 15, 2021"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Blog Topic:",
+                        "description": "Industrial Company"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Category:",
+                        "description": "Home protetction"
+                    },
+                    {
+                        "id": 4,
+                        "title": "Author",
+                        "description": "John Doe"
+                    }
+                ]
+            },
+            {
+                "id": "6",
+                "image": "/media/images/pexels-gerritttisdale-922797.jpg",
+                "title": "Blog 6",
+                "details": "Elecetricty and Gas and Metering et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                "next_btn": "Next",
+                "prev_btn": "Previous",
+                "detail_list": [
+                    {
+                        "id": 1,
+                        "title": "Date:",
+                        "description": "September 15, 2021"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Blog Topic:",
+                        "description": "Industrial Company"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Category:",
+                        "description": "Home protetction"
+                    },
+                    {
+                        "id": 4,
+                        "title": "Author",
+                        "description": "John Doe"
+                    }
+                ]
+            }
+        ]
+    },
+    "about_page": {
+        "id": 1,
+        "about_banner": "/media/images/AboutBanner.png",
+        "title": "About Us",
+        "image": "/media/images/AboutImage.png",
+        "content_description": "About EMS Contracting",
+        "content_text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, facilis? Adipisci maiores, consectetur eligendi sint perspiciatis, sed odit dolorum illo eos sapiente minima, placeat mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum minus vel beatae officiis non dicta, quidem sint tenetur dolores saepe at distinctio sapiente cupiditate corporis dignissimos. Modi doloremque ut odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur similique eius, maxime commodi nisi fugit asperiores maiores velit, cum labore enim voluptates cupiditate iure quibusdam. Dolores qui error quidem! Provident?",
+        "cards_title": "The EMS Brand Values",
+        "about_cards": [
+            {
+                "id": 1,
+                "title": "Integrity",
+                "icon": "/media/images/AboutIcon.png",
+                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident exercitationem sed sapiente nam magnam dolor reiciendis rerum asperiores."
+            },
+            {
+                "id": 2,
+                "title": "Honesty",
+                "icon": "/media/images/AboutIcon2.png",
+                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident exercitationem sed sapiente nam magnam dolor reiciendis rerum asperiores."
+            },
+            {
+                "id": 3,
+                "title": "FAIRNESS",
+                "icon": "/media/images/AboutIcon3.png",
+                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident exercitationem sed sapiente nam magnam dolor reiciendis rerum asperiores."
+            },
+            {
+                "id": 4,
+                "title": "ACCOUNTABILITY",
+                "icon": "/media/images/AboutIcon4.png",
+                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident exercitationem sed sapiente nam magnam dolor reiciendis rerum asperiores."
+            },
+            {
+                "id": 5,
+                "title": "COMMITMENT TO DELIVER",
+                "icon": "/media/images/AboutIcon5.png",
+                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident exercitationem sed sapiente nam magnam dolor reiciendis rerum asperiores."
+            },
+            {
+                "id": 6,
+                "title": "DIVERSITY & INCLUSION",
+                "icon": "/media/images/AboutIcon6.png",
+                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident exercitationem sed sapiente nam magnam dolor reiciendis rerum asperiores."
+            },
+            {
+                "id": 7,
+                "title": "LEARNING",
+                "icon": "/media/images/AboutIcon7.png",
+                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident exercitationem sed sapiente nam magnam dolor reiciendis rerum asperiores."
+            },
+            {
+                "id": 8,
+                "title": "TEAMWORK",
+                "icon": "/media/images/AboutIcon8.png",
+                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident exercitationem sed sapiente nam magnam dolor reiciendis rerum asperiores."
+            }
+        ]
+    },
+    "contact_page": {
+        "id": 1,
+        "banner":"/media/images/ContactBanner.png",
+        "title":"Contact Us",
+        "cards_title": "MEET OUR BEST TEAM",
+        "contact_cards": [
+            {
+                "id": 1,
+                "image": "/media/images/ContactCard.png",
+                "team": "Jack Dorsey",
+                "mail": "user@gmail.com"
+            },
+            {
+                "id": 2,
+                "image": "/media/images/ContactCard2.png",
+                "team": "Tom Hanks",
+                "mail": "user@gmail.com"
+            },
+            {
+                "id": 3,
+                "image": "/media/images/ContactCard3.png",
+                "team": "Thomas Jeffrey",
+                "mail": "user@gmail.com"
+            }
+        ]
+    }
+}

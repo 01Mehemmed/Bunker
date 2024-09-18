@@ -1,0 +1,56 @@
+.card:hover a {
+  background-color: var(--bg-color-1);
+  color: #fff;
+}
+.card .top {
+  position: relative;
+  height: 40rem;
+  background-color: rgba(8, 8, 8, 0.773);
+  overflow: hidden;
+  scrollbar-color: var(--bg-color-1);
+  border-radius: 1rem 1rem 0 0;
+}
+.card .top h5 {
+  position: absolute;
+  bottom: 4rem;
+  left: 4rem;
+  font-size: clamp(1.6rem, 1.4706vw + 0.8941rem, 2.4rem);
+  max-width: 25rem;
+  color: var(--color-2);
+  font-family: "Roboto-regular";
+  font-weight: 400;
+}
+.card .bottom a {
+  font-size: clamp(1.4rem, 0.3676vw + 1.2235rem, 1.6rem);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+  color: var(--color-1);
+  transition: all 0.3s ease;
+}
+.card .bottom a:hover {
+  color: var(--color-2);
+}
+.card .bottom a p {
+  width: 20rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 768px) {
+  .card .top {
+    height: 30rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .card .top {
+    height: 25rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .card {
+    max-width: 30rem;
+  }
+}/*# sourceMappingURL=cards.module.css.map */

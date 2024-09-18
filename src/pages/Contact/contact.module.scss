@@ -1,0 +1,155 @@
+.contact_us {
+    margin-top: 20rem;
+    margin-bottom: 5rem;
+    position: relative;
+
+    .page_background {
+        max-width: 40rem;
+        position: absolute;
+    }
+
+    .container {
+        max-width: 130rem;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        align-items: center;
+
+        .contact_title {
+            font-size: clamp(1.4rem, 4.7794vw + -.8941rem, 4rem);
+            text-align: center;
+            position: relative;
+
+            &::before {
+                content: "";
+                position: absolute;
+                width: 45%;
+                height: 0.2rem;
+                background-color: var(--bg-color-3);
+                bottom: -0.5rem;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+
+        .wrapper {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+            justify-items: center;
+            width: 90%;
+            gap: 2rem;
+
+            .card {
+                width: 30rem;
+                height: 40rem;
+                border-radius: 15px;
+                padding: 1.5rem;
+                background: white;
+                position: relative;
+                display: flex;
+                align-items: flex-end;
+                transition: 0.4s ease-out;
+                box-shadow: 1px 5px 10px var(--bg-color-4);
+
+                &:hover {
+                    transform: translateY(20px);
+
+                    &:before {
+                        opacity: 1;
+                    }
+
+                    .info {
+                        opacity: 1;
+                        transform: translateY(0px);
+                    }
+                }
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 15px;
+                    background: rgba(0, 0, 0, 0.6);
+                    z-index: 2;
+                    transition: 0.5s;
+                    opacity: 0;
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    border-radius: 15px;
+                }
+
+                .info {
+                    position: relative;
+                    z-index: 3;
+                    color: white;
+                    opacity: 0;
+                    transform: translateY(30px);
+                    transition: 0.5s;
+
+                    p {
+                        letter-spacing: 1px;
+                        font-size: 15px;
+                        margin-top: 8px;
+                    }
+
+                    button {
+                        padding: 0.6rem;
+                        outline: none;
+                        border: none;
+                        border-radius: 3px;
+                        background: white;
+                        color: black;
+                        font-weight: bold;
+                        cursor: pointer;
+                        transition: 0.4s ease;
+
+                        &:hover {
+                            background: dodgerblue;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Responsive
+
+@media screen and (max-width:768px) {
+    .contact_us {
+        .container {
+            .wrapper {
+                gap: 3rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+    .contact_us {
+        .container {
+            .wrapper {
+                grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+
+                .card {
+                    width: 20rem;
+                    height: 30rem;
+                }
+            }
+        }
+    }
+}

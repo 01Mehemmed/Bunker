@@ -1,0 +1,116 @@
+header {
+    padding-top: 1rem;
+}
+
+.container {
+    max-width: 130rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .left {
+        a {
+            display: block;
+            max-width: 11rem;
+        }
+    }
+}
+
+.bottom {
+    background-color: var(--bg-color-3);
+    padding: 1rem 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .left {
+            ul {
+                display: flex;
+                gap: 4rem;
+                padding: 1rem 0;
+
+                li {
+                    a {
+                        font-size: clamp(1rem, 0.364vw + 0.902rem, 1.6rem);
+                        color: var(--color-2);
+                        font-family: 'Poppins-regular';
+                        position: relative;
+
+                        &::before,
+                        &.active::before {
+                            content: '';
+                            position: absolute;
+                            top: 2.4rem;
+                            bottom: 0;
+                            left: 0;
+                            right: 0;
+                            margin: auto;
+                            width: 0%;
+                            background-color: var(--hover-1);
+                            height: 0.2rem;
+                            transition: width 0.3s ease;
+                            border-radius: 5px;
+                        }
+
+                        &:hover::before {
+                            width: 40%;
+                        }
+
+                        &.active::after {
+                            width: 40%;
+                        }
+
+                        &.active {
+                            background-color: var(--);
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+}
+
+
+// Responsive
+
+@media screen and (max-width:768px) {
+    .bottom {
+        display: none;
+    }
+
+    .container {
+        .top {
+            button {
+                display: block;
+                background-color: #fff;
+                border: none;
+                font-size: 2.4rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:340px) {
+    .top {
+        .left {
+            a {
+                max-width: 7rem;
+            }
+        }
+
+        .top_right {
+            gap: 1rem;
+        }
+    }
+}

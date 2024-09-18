@@ -1,0 +1,96 @@
+.project_details {
+  margin-bottom: 5rem;
+}
+.project_details .container {
+  max-width: 130rem;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  gap: 10rem;
+}
+.project_details .container .content {
+  max-width: 73rem;
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+}
+.project_details .container .content .image {
+  overflow: hidden;
+  border-radius: 10px;
+}
+.project_details .container .content .details_content h3 {
+  color: var(--color-1);
+  font-size: clamp(1.4rem, 5.8824vw - 1.4235rem, 4.6rem);
+  font-family: "Poppins-medium";
+}
+.project_details .container .content .details_content p {
+  font-size: clamp(1.2rem, 0.7353vw + 0.8471rem, 1.6rem);
+  font-family: "Roboto-regular";
+  line-height: 1.8;
+}
+.project_details .container .content .bottom_transiton {
+  padding: 3rem 0;
+  border-top: 2px solid var(--border-3);
+  border-bottom: 2px solid var(--border-3);
+}
+.project_details .container .content .bottom_transiton ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.project_details .container .content .bottom_transiton ul li a {
+  font-size: clamp(1.4rem, 0.6944vw + 1.0667rem, 1.6rem);
+}
+.project_details .container .content .bottom_transiton ul li a button {
+  background-color: transparent;
+  border: none;
+  color: var(--color-3);
+  cursor: pointer;
+  font-family: "Poppins-bold";
+}
+.project_details .container .content .bottom_transiton ul li a button:disabled {
+  background-color: transparent;
+  border: none;
+  cursor: not-allowed;
+}
+.project_details .container .content .bottom_transiton ul li svg {
+  font-size: clamp(1.6rem, 1.8382vw + 0.7176rem, 2.6rem);
+  color: var(--color-3);
+}
+.project_details .detail_list ul {
+  padding: 5rem 2rem;
+  background-color: var(--bg-color-1);
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 2rem;
+}
+.project_details .detail_list ul li {
+  width: 25rem;
+}
+.project_details .detail_list ul li h4 {
+  font-size: clamp(1.4rem, 1.8382vw + 0.5176rem, 2.4rem);
+  color: var(--color-3);
+  font-family: "Poppins-regular";
+}
+.project_details .detail_list ul li p {
+  font-size: clamp(1.2rem, 1.8382vw + 0.3176rem, 2.2rem);
+  color: var(--color-2);
+}
+
+@media screen and (max-width: 1024px) {
+  .project_details .container .content .image {
+    min-width: 38rem;
+  }
+  .project_details .container .detail_list ul li {
+    width: 19rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .project_details .container {
+    flex-direction: column-reverse;
+  }
+  .project_details .container .content .image {
+    min-width: 1rem;
+  }
+}/*# sourceMappingURL=projectdetails.module.css.map */

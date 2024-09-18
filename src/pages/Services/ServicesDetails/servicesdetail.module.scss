@@ -1,0 +1,108 @@
+.services_details {
+    margin-bottom: 5rem;
+
+    .container {
+        max-width: 130rem;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        gap: 10rem;
+
+        .sidebar {
+            .menu {
+                li {
+                    background-color: var(--bg-color-1);
+                    text-align: center;
+                    border-top: 1px solid var(--border-2);
+
+                    a {
+                        font-size: clamp(1.2rem, .7353vw + .8471rem, 1.6rem);
+                        color: var(--color-2);
+                        padding: 2.5rem 0;
+                        display: inline-block;
+                        max-width: 29rem;
+                        width: 95%;
+
+                        &.active {
+                            border-left: 5px solid var(--border-1);
+                            border-top: 1px solid var(--border-1);
+                            border-right: 1px solid var(--border-1);
+                            border-bottom: 1px solid var(--border-1);
+                        }
+                    }
+                }
+            }
+        }
+
+        .content {
+            max-width: 76rem;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            gap: 5rem;
+
+            .details_title {
+                font-size: clamp(1.6rem, 5.5147vw + -1.0471rem, 4.6rem);
+                font-family: 'Poppins-regular';
+                text-align: left;
+                margin-bottom: 2rem;
+            }
+
+            .detail_paragraph {
+                font-size: clamp(1.2rem, .7353vw + .8471rem, 1.6rem);
+            }
+
+            .quality_list {
+                ul {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    gap: 1rem;
+
+                    li {
+                        max-width: 8rem;
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+
+                        .detail_icon {
+                            min-width: 5rem;
+                        }
+                        h3 {
+                            color: var(--color-1);
+                            font-size: clamp(1.2rem, 1.3889vw + .5333rem, 1.6rem);
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .services_details {
+        .container {
+            flex-direction: column;
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+    .services_details {
+        .container {
+            .content {
+                .quality_list {
+                    ul {
+                        li {
+                            .detail_icon {
+                                max-width: 5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

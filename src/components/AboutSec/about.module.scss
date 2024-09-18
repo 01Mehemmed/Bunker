@@ -1,0 +1,123 @@
+.About {
+    margin-bottom: 10rem;
+
+    .container {
+        max-width: 130rem;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+
+        .left {
+            max-width: 57rem;
+            border-radius: 1rem;
+            overflow: hidden;
+        }
+
+        .right {
+            max-width: 40rem;
+            display: flex;
+            flex-direction: column;
+            gap: 4rem;
+
+            .box_header {
+                h2 {
+                    font-size: clamp(1.091rem, 0.521vw + 0.727rem, 1.636rem);
+                    color: var(--color-3);
+                    font-family: 'Roboto-medium';
+                    font-weight: 500;
+                }
+
+                h4 {
+                    font-size: clamp(2.4rem, 5vw + -2.6rem, 4.6rem);
+                    font-family: 'Roboto-medium';
+                    max-width: 35rem;
+                }
+
+            }
+
+            .bottom {
+                display: flex;
+                flex-direction: column;
+                gap: 5rem;
+
+                p {
+                    font-size: clamp(1rem, 1.3636vw + -.3636rem, 1.6rem);
+                }
+
+                .group_list {
+                    display: flex;
+                    gap: 0.5rem;
+
+                    li {
+                        max-width: 10rem;
+                    }
+                }
+
+                .btn {
+                    max-width: 17rem;
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+                    padding: 1.5rem 2rem;
+                    background-color: var(--color-2);
+                    color: var(--color-1);
+                    font-size: clamp(1.4rem, .4545vw + .9455rem, 1.6rem);
+                    border: 2px solid var(--border-1);
+                    font-family: 'Poppins-bold';
+                    font-weight: 700;
+                    border-radius: 5px;
+                    transition: all 0.4s ease 0s;
+                    cursor: pointer;
+
+                    i {
+                        font-size: 1.6rem;
+                    }
+
+                    &:hover {
+                        color: var(--color-2);
+                        background-color: var(--bg-color-btn);
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Responsive
+
+@media screen and (max-width:1024px){
+    .About{
+        .container{
+            .right {
+                .bottom {
+                    .btn {
+                        max-width: 15rem;
+                        padding: 1rem 1.5rem;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .About {
+        .container {
+            flex-direction: column;
+            align-items: center;
+
+            .right {
+                max-width: 35rem;
+
+                .bottom {
+                    .btn {
+                        max-width: 13rem;
+                    }
+                }
+            }
+        }
+    }
+}

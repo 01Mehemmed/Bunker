@@ -1,0 +1,71 @@
+:root {
+    /* Background */
+    --bg-color-1: #047CD1;
+    --bg-color-2: #F2F2F2;
+    --bg-color-3: #000;
+    --bg-color-4: #E48E33;
+    --bg-color-5: #fff;
+    --bg-color-footer: #1a1a1a;
+    --bg-color-btn: #E48E33;
+
+    /* Color */
+    --color-1: #000;
+    --color-2: #fff;
+    --color-3: #E48E33;
+
+    /* Hover */
+    --hover-1: #E48E33;
+
+    /* Border */
+    --border-1: #E48E33;
+    --border-2: #E0E0E0;
+    --border-3: #000;
+
+    /* Box shadow */
+    --shadow-1: #E48E33;
+
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Poppins-bold';
+    src: url('./assets/fonts/Poppins/Poppins-Bold.ttf') format(truetype);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-medium';
+    src: url('./assets/fonts/Poppins/Poppins-Medium.ttf') format(truetype);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-regular';
+    src: url('./assets/fonts/Poppins/Poppins-Regular.ttf') format(truetype);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-bold';
+    src: url('./assets/fonts/Roboto/Roboto-Bold.ttf') format(truetype);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-medium';
+    src: url('./assets/fonts/Roboto/Roboto-Medium.ttf') format(truetype);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-regular';
+    src: url('./assets/fonts/Roboto/Roboto-Regular.ttf') format(truetype);
+    font-weight: 400;
+    font-style: normal;
+}
