@@ -7,7 +7,7 @@ const ContactForm = () => {
     const form = useRef();
     const [successMessage, setSuccessMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
-     const { contactdata, loading, error } = useContext(DataContext)
+    const { contactdata, loading, error } = useContext(DataContext)
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -26,10 +26,10 @@ const ContactForm = () => {
                     console.log(error.text);
                 }
             );
-            
+
     };
 
-    // Auto-hide messages after 2 seconds
+    // Auto-hide messages after 
     useEffect(() => {
         if (successMessage || errorMessage) {
             const timer = setTimeout(() => {
@@ -44,10 +44,10 @@ const ContactForm = () => {
     return (
         <>
             <form className='input_form' ref={form} onSubmit={sendEmail}>
-                <input type="text" placeholder='Name' name="user_name" />
-                <input type="email" placeholder='Mail' name="user_email" />
-                <input type="number" placeholder='Phone number' name="user_number" />
-                <textarea placeholder='Enter message' name="message"></textarea>
+                <input type="text" placeholder='Name' name="user_name" required />
+                <input type="email" placeholder='Mail' name="user_email" required />
+                <input type="number" placeholder='Phone number' name="user_number" required />
+                <textarea placeholder='Enter message' name="message" required></textarea>
                 <button type="submit" className="submit_btn">{contactdata.submit_btn}</button>
             </form>
 

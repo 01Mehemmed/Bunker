@@ -21,7 +21,7 @@
 // Responsive
 
 @media screen and (max-width:768px) {
-    .projects_cards {
+    .blog_cards {
         .container {
             .cards {
                 grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
@@ -31,7 +31,7 @@
 }
 
 @media screen and (max-width:520px) {
-    .Services_cards {
+    .blog_cards {
         .container {
             .cards {
                 grid-template-columns: repeat(auto-fill, minmax(18.5rem, 1fr));

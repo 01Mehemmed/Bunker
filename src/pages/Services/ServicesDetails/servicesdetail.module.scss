@@ -11,23 +11,21 @@
         .sidebar {
             .menu {
                 li {
-                    background-color: var(--bg-color-1);
                     text-align: center;
-                    border-top: 1px solid var(--border-2);
 
                     a {
+                        background-color: var(--bg-color-1);
                         font-size: clamp(1.2rem, .7353vw + .8471rem, 1.6rem);
+                        border-top: 1px solid var(--border-2);
                         color: var(--color-2);
                         padding: 2.5rem 0;
                         display: inline-block;
                         max-width: 29rem;
                         width: 95%;
 
-                        &.active {
-                            border-left: 5px solid var(--border-1);
-                            border-top: 1px solid var(--border-1);
-                            border-right: 1px solid var(--border-1);
-                            border-bottom: 1px solid var(--border-1);
+                        &:hover {
+                            background-color: var(--bg-color-2);
+                            color: var(--color-3);
                         }
                     }
                 }
@@ -69,6 +67,7 @@
                         .detail_icon {
                             min-width: 5rem;
                         }
+
                         h3 {
                             color: var(--color-1);
                             font-size: clamp(1.2rem, 1.3889vw + .5333rem, 1.6rem);
@@ -85,6 +84,16 @@
     .services_details {
         .container {
             flex-direction: column;
+
+            .sidebar {
+                .menu {
+                    li {
+                        a {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -93,6 +102,8 @@
     .services_details {
         .container {
             .content {
+                align-items: center;
+
                 .quality_list {
                     ul {
                         li {

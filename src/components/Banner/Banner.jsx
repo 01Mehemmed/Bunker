@@ -21,7 +21,7 @@ const Banner = () => {
           <div className={AboutClasses.text_Box}>
             <h2>{banner.title}</h2>
             <h4>{banner.text}</h4>
-            <Link>Make an Enquiry</Link>
+            <Link to={banner.button_link}>{banner.button}</Link>
           </div>
 
         </div>
