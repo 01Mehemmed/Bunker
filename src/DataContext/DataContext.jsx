@@ -5,7 +5,7 @@ export const DataContext = createContext()
 export const DataProvider = ({ children }) => {
     // Home page & header & footer states
     const [data, setData] = useState([]);
-    const [languageOptions, setLanguageOptions] = useState([]);
+    const [dropmenudata, setDropMenuData] = useState([]);
     const [linkdata, setlinkdata] = useState([])
     const [banner, setBanner] = useState([])
     const [aboutdata, setAboutData] = useState([])
@@ -45,6 +45,20 @@ export const DataProvider = ({ children }) => {
             .then((response) => response.json())
             .then((data) => {
                 setData(data);
+                setLoading(false);
+            })
+            .catch((error) => {
+                setError('Header data could not be loaded');
+                setLoading(false);
+            });
+    }, []);
+
+    useEffect(() => {
+        setLoading(true);
+        fetch('http://localhost:3001/dropdown_menu')
+            .then((response) => response.json())
+            .then((data) => {
+                setDropMenuData(data);
                 setLoading(false);
             })
             .catch((error) => {
@@ -406,7 +420,7 @@ export const DataProvider = ({ children }) => {
 
     return (
         <DataContext.Provider value={{
-            data, loading, error, linkdata, banner, aboutdata, projectdata, servicedata, servicelinkdata, partnerdata, contactdata, footerdata,
+            data, dropmenudata, loading, error, linkdata, banner, aboutdata, projectdata, servicedata, servicelinkdata, partnerdata, contactdata, footerdata,
             servicepagedata, servicedetaildata, projectsdata, prodetail, blogdata, detaildata, contactpagedata, aboutpagedata
         }}>
             {children}

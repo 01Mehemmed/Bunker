@@ -54,7 +54,7 @@ const Footer = () => {
                 <ul>
                   <li><p>{footerdata.loaction}</p></li>
                   <li><span>{footerdata.number}</span></li>
-                  <li><Link to="#">{footerdata.mail}</Link></li> {/* Burada Link mail için kullanılıyor */}
+                  <li><Link to="#">{footerdata.mail}</Link></li>
                 </ul>
               </div>
             </div>

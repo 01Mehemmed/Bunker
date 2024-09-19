@@ -64,7 +64,7 @@ header {
                             width: 40%;
                         }
 
-                         a .active::after {
+                        a .active::after {
                             width: 40%;
                         }
                     }
@@ -91,20 +91,28 @@ header {
                 border: none;
                 font-size: 2.4rem;
             }
+
+            .top_right {
+                display: flex;
+                align-items: center;
+                gap: 3rem;
+            }
         }
     }
 }
 
-@media screen and (max-width:340px) {
-    .top {
-        .left {
-            a {
-                max-width: 7rem;
+@media screen and (max-width:350px) {
+    .container {
+        .top {
+            .left {
+                a {
+                    max-width: 7rem;
+                }
             }
-        }
 
-        .top_right {
-            gap: 1rem;
+            .top_right {
+                gap: 1rem;
+            }
         }
     }
 }

@@ -17,6 +17,7 @@
             .image {
                 overflow: hidden;
                 border-radius: 10px;
+                height: 43rem;
             }
 
             .details_content {
@@ -70,6 +71,12 @@
                 }
             }
         }
+    }
+
+    button:disabled {
+        background-color: transparent;
+        border: none;
+        cursor: not-allowed;
     }
 
     .detail_list {
@@ -134,6 +141,24 @@
 
                 .image {
                     min-width: 1rem;
+                }
+            }
+
+        }
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    .project_details {
+        .container {
+            flex-direction: column-reverse;
+
+
+            .content {
+
+                .image {
+                    height: 30rem;
                 }
             }
 

@@ -26,18 +26,36 @@
             "path": "/Contact"
         }
     ],
-    "select-option": [
+    "dropdown_menu": [
         {
             "id": 1,
-            "name": "Az"
+            "name": "Home",
+            "path": "/"
         },
         {
             "id": 2,
-            "name": "Eng"
+            "name": "Services",
+            "path": "/Services"
         },
         {
             "id": 3,
-            "name": "RU"
+            "name": "Projects",
+            "path": "/Projects"
+        },
+        {
+            "id": 4,
+            "name": "Blogs",
+            "path": "/Blogs"
+        },
+        {
+            "id": 5,
+            "name": "About Us",
+            "path": "/About"
+        },
+        {
+            "id": 6,
+            "name": "Contact Us",
+            "path": "/Contact"
         }
     ],
     "social_links": {
@@ -217,7 +235,7 @@
             },
             {
                 "id": 3,
-                "title": "F Gas Regulation"
+                "title": "Refigeration"
             },
             {
                 "id": 4,
@@ -406,8 +424,8 @@
             {
                 "id": "4",
                 "image": "/media/images/Detail3.png",
-                "title": "F Gas Regulation",
-                "details": "F Gas Regulation et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                "title": "Renewable Energy and Heating",
+                "details": "Renewable Energy and Heating et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
                 "quality_list": [
                     {
                         "id": 1,
@@ -434,8 +452,8 @@
             {
                 "id": "5",
                 "image": "/media/images/Detail4.png",
-                "title": "Renewable Energy and Heating",
-                "details": "Renewable Energy and Heating accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                "title": "Electricty and Gas and Metering",
+                "details": "Electricty and Gas and Metering accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
                 "quality_list": [
                     {
                         "id": 1,
@@ -462,8 +480,8 @@
             {
                 "id": "6",
                 "image": "/media/images/Detail5.png",
-                "title": "Elecetricty and Gas and Metering",
-                "details": "Elecetricty and Gas and Metering et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+                "title": "F Gas Regulation",
+                "details": "F Gas Regulation et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
                 "quality_list": [
                     {
                         "id": 1,
@@ -1019,7 +1037,7 @@
         "banner": "/media/images/ContactBanner.png",
         "title": "Contact Us",
         "cards_title": "MEET OUR BEST TEAM",
-        "vector_img":"../../../public/media/images/Vector.png",
+        "vector_img": "../../../public/media/images/Vector.png",
         "contact_cards": [
             {
                 "id": 1,

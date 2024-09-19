@@ -8,17 +8,7 @@ import Search from './Search/Search'
 import Icons from './SocialMedia/Icons'
 
 const Header = () => {
-  const [languageOptions, setLanguageOptions] = useState([]);
   const { data, loading, error } = useContext(DataContext);
-
-  useEffect(() => {
-    fetch('http://localhost:3001/select-option')
-      .then((response) => response.json())
-      .then((data) => {
-        setLanguageOptions(data);
-      })
-      .catch((error) => console.error('Error fetching data', error));
-  }, []);
 
   if (loading) {
     return <p>Loading...</p>;
@@ -43,8 +33,8 @@ const Header = () => {
             <Icons />
             <div className={headerClasses.languages_Box}>
             </div>
+            <Dropdown />
           </div>
-          <Dropdown />
         </div>
       </div>
       <div className={headerClasses.bottom}>
